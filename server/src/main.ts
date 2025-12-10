@@ -95,7 +95,7 @@ async function bootstrap() {
   const port = process.env.PORT || 8000;
   await app.listen(port);
 
-  console.log(`🚀 Server running at http://localhost:${port}/api`);
+  console.log(`🚀 Server running at http://localhost:${port}`);
   console.log(`📚 Swagger at http://localhost:${port}/swagger`);
   console.log(`📚 Scalar Docs at http://localhost:${port}/reference`);
 }
